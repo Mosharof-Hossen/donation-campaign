@@ -4,7 +4,7 @@ import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
-        <div>
+        <div className="space-y-20">
             <Banner></Banner>
             <AllCategory></AllCategory>
         </div>
