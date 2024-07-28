@@ -8,8 +8,10 @@ function App() {
 
   return (
     <>
-      <Header></Header>
-      <Outlet></Outlet>
+      <div className=" max-w-5xl mx-auto">
+        <Header></Header>
+        <Outlet></Outlet>
+      </div>
       <Footer></Footer>
     </>
   )
