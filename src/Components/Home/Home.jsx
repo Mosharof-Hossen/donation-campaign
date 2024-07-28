@@ -1,12 +1,13 @@
+import AllCategory from "../AllCategory/AllCategory";
 import Banner from "../Banner/Banner";
 
 
 const Home = () => {
     return (
-        <>
-        <Banner></Banner>
-        
-        </>
+        <div>
+            <Banner></Banner>
+            <AllCategory></AllCategory>
+        </div>
     );
 };
 // health
@@ -18,7 +19,7 @@ const Home = () => {
 // Clothing
 // background - #79c23f
 
-// Health
+// Food
 // background - #ffe100
 
 
