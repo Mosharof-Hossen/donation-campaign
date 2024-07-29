@@ -1,12 +1,16 @@
 
 import PropTypes from 'prop-types';
+import {  useNavigate } from 'react-router-dom';
 
 const Category = ({ singleCategory }) => {
-    const { picture, title, category, background, card_bg, category_bg } = singleCategory;
-    
+    const {id, picture, title, category, background, card_bg, category_bg } = singleCategory;
+    const location = useNavigate()
+    const newLocation = (id)=>{
+        location(`/view-details/${id}`)
+    }
 
     return (
-        <div className="card card-compact rounded bg-base-100  shadow" style={{ backgroundColor: card_bg }} >
+        <div onClick={()=>newLocation(id)} className="cursor-pointer card card-compact rounded bg-base-100  shadow" style={{ backgroundColor: card_bg }} >
             <figure>
                 <img className='w-full'
                     src={picture}

@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Components/Home/Home.jsx'
 import Donations from './Components/Donations/Donations.jsx'
 import Statistics from './Components/Statistics/Statistics.jsx'
+import ViewDetails from './Components/ViewDetails/ViewDetails.jsx'
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,11 @@ const router = createBrowserRouter([
       {
         path:"/statistics",
         element: <Statistics></Statistics>
+      },
+      {
+        path:"/view-details/:id",
+        loader:()=>fetch("../public/data.json"),
+        element: <ViewDetails></ViewDetails>
       }
     ]
 
