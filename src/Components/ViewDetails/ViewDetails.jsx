@@ -2,14 +2,18 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { saveDonationInfo } from '../../Utilitis/LocalStorage';
 
 const ViewDetails = () => {
     const { viewId } = useParams();
     const data = useLoaderData();
     const filteredData = data.find(dt => dt.id == viewId);
-    const { title, description, picture, background, price } = filteredData;
+    const {id, title, description, picture, background, price } = filteredData;
 
-    const notify = () => toast("Thanks For Your Donation");
+    const notify = () => {
+        toast("Thanks For Your Donation");
+        saveDonationInfo(id);
+    };
     return (
         <div className='space-y-8'>
             <div
@@ -21,7 +25,7 @@ const ViewDetails = () => {
 
                 <div className="hero-overlay flex flex-col w-full h-20 mt-auto hero-content ">
                     <div className="w-full  ">
-                        <button onClick={notify} className="text-white px-2 py-1 rounded" style={{ backgroundColor: background }}>Donate ${price}</button>
+                        <button onClick={()=>notify(id)} className="text-white px-2 py-1 rounded" style={{ backgroundColor: background }}>Donate ${price}</button>
                         <ToastContainer />
                     </div>
                 </div>
