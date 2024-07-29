@@ -26,7 +26,7 @@ const router = createBrowserRouter([
         element: <Statistics></Statistics>
       },
       {
-        path:"/view-details/:id",
+        path:"/view-details/:viewId",
         loader:()=>fetch("../public/data.json"),
         element: <ViewDetails></ViewDetails>
       }

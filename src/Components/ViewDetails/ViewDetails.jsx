@@ -2,14 +2,31 @@
 import { useLoaderData, useParams } from 'react-router-dom';
 
 const ViewDetails = () => {
-    const {id} = useParams();
+    const { viewId } = useParams();
     const data = useLoaderData();
-    const filteredData = data.find(dt=>dt.id == id);
-    console.log(id);
+    const filteredData = data.find(dt => dt.id == viewId);
+    const {title, description, picture, background, price } = filteredData;
     console.log(filteredData);
     return (
-        <div>
-            viewDetails
+        <div className='space-y-8'>
+            <div
+                className="hero h-[500px] rounded mt-12"
+                style={{
+                    backgroundImage: `url(${picture})`,
+                }}>
+                {/* <div className=" bg-opacity-60 h-20 flex absolute "></div> */}
+
+                <div className="hero-overlay flex flex-col w-full h-20 mt-auto hero-content ">
+                    <div className="w-full  ">
+                        <button className="text-white px-2 py-1 rounded" style={{ backgroundColor: background }}>Donate ${price}</button>
+                    </div>
+                </div>
+
+            </div>
+            <div className='space-y-4'>
+                <h2 className='text-4xl font-bold'>{title}</h2>
+                <p className='text-base text-justify'>{description}</p>
+            </div>
         </div>
     );
 };
