@@ -15,9 +15,9 @@ const ViewDetails = () => {
         saveDonationInfo(id);
     };
     return (
-        <div className='space-y-8 mt-12 p-5'>
+        <div className='space-y-8 mt-2 p-5'>
             <div
-                className="hero h-[500px] rounded "
+                className="hero h-[450px] rounded "
                 style={{
                     backgroundImage: `url(${picture})`,
                 }}>

@@ -4,7 +4,7 @@ import { FilterByInputValue } from "../../App";
 
 
 const AllCategory = () => {
-    const { inputValue,filterFun } = useContext(FilterByInputValue);
+    const { inputValue } = useContext(FilterByInputValue);
     const [allCategory, setAllCategory] = useState([]);
     const [filteredData, setFilteredData] = useState([]);
 
@@ -20,7 +20,6 @@ const AllCategory = () => {
 
     }, [allCategory, inputValue])
 
-    console.log(filteredData);
 
     useEffect(() => {
         fetch("/data.json")
