@@ -13,7 +13,7 @@ const Donations = () => {
         const donationsId = getStorageCart();
         const filteredData = data.filter((dt) => donationsId.includes(dt.id));
         setDonationList(filteredData);
-        setDisplayDonationList(filteredData);
+        setDisplayDonationList(filteredData.slice(0,4));
 
     }, [data])
 
@@ -21,21 +21,22 @@ const Donations = () => {
     //     setDisplayDonationList(donationList.slice(0, 4))
     // }
 
-    const handleSeeAll = (num) => {
-        setSee(num);
+    const handleSeeAll = () => {
+        setDisplayDonationList(donationList);
+        console.log(displayDonationList);
     }
 
 
-    console.log(donationList);
+    console.log(displayDonationList);
     return (
         <>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 mt-12">
                 {
-                    displayDonationList.slice(0, see).map((donation) => <DonationCart key={donation.id} donation={donation}></DonationCart>)
+                    displayDonationList.map((donation) => <DonationCart key={donation.id} donation={donation}></DonationCart>)
                 }
             </div>
-            <div className={see == donationList.length ? "hidden" : "text-center"}>
-                <button onClick={()=>handleSeeAll(donationList.length)} className="rounded text-white px-3 py-1 bg-[#009444]">See All</button>
+            <div className={displayDonationList.length == donationList.length ? "hidden" : "text-center"}>
+                <button onClick={handleSeeAll} className="rounded text-white px-3 py-1 bg-[#009444]">See All</button>
             </div>
         </>
     );
