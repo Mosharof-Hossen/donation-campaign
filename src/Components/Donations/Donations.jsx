@@ -5,21 +5,39 @@ import DonationCart from "../DonationCart/DonationCart";
 
 
 const Donations = () => {
+    const [see, setSee] = useState(4)
     const [donationList, setDonationList] = useState([]);
+    const [displayDonationList, setDisplayDonationList] = useState([])
     const data = useLoaderData();
     useEffect(() => {
         const donationsId = getStorageCart();
         const filteredData = data.filter((dt) => donationsId.includes(dt.id));
-        setDonationList(filteredData)
+        setDonationList(filteredData);
+        setDisplayDonationList(filteredData);
+
     }, [data])
+
+    // if (donationList.length > 4) {
+    //     setDisplayDonationList(donationList.slice(0, 4))
+    // }
+
+    const handleSeeAll = (num) => {
+        setSee(num);
+    }
+
 
     console.log(donationList);
     return (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 mt-12">
-            {
-                donationList.map((donation)=><DonationCart key={donation.id}donation={donation}></DonationCart>)
-            }
-        </div>
+        <>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 p-5 mt-12">
+                {
+                    displayDonationList.slice(0, see).map((donation) => <DonationCart key={donation.id} donation={donation}></DonationCart>)
+                }
+            </div>
+            <div className={see == donationList.length ? "hidden" : "text-center"}>
+                <button onClick={()=>handleSeeAll(donationList.length)} className="rounded text-white px-3 py-1 bg-[#009444]">See All</button>
+            </div>
+        </>
     );
 };
 
