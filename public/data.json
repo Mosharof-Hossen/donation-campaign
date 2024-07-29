@@ -4,9 +4,9 @@
         "picture": "https://i.ibb.co/C5PwB8v/Health.png",
         "title": "Healthy Kids",
         "category": "Health",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#0052FF",
+        "category_bg": "#e6b0aa",
+        "card_bg": "#f9ebea",
+        "background": "#c0392b",
         "description": "Help us support healthy growth and development for underprivileged children. By contributing to this cause, you ensure that children receive essential healthcare services, including vaccinations, regular check-ups, and nutritional supplements. Your donation will have a profound impact on their quality of life and future opportunities. We are dedicated to providing comprehensive medical care that addresses common health issues and urgent needs. Our programs are tailored to reach the most vulnerable populations, ensuring they have access to necessary treatments and preventive measures. Supporting this initiative means investing in the well-being of young individuals at a critical stage in their lives. Join us in making a tangible difference and securing a healthier future for these children. Together, we can foster a healthier community and lay the groundwork for a brighter tomorrow. Your contribution not only aids immediate health care but also promotes long-term improvements in their overall health and development, creating a ripple effect of positive change.",
         "price": 350
     },
@@ -15,9 +15,9 @@
         "picture": "https://i.ibb.co/tYHmXC5/Education.png",
         "title": "Education for All",
         "category": "Education",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#ff444a",
+        "category_bg": "#a9dfbf",
+        "card_bg": "#eafaf1",
+        "background": "#27ae60",
         "description": "Invest in the future by supporting educational programs for underprivileged children. Your donation will provide textbooks, learning materials, and essential resources to students who lack access to quality education. By contributing, you help bridge the educational gap, empowering these children to achieve their dreams and build a better future. Our initiatives focus on creating conducive learning environments, enhancing school infrastructure, and offering scholarships to deserving students. Education is a transformative tool that changes lives, and your support is crucial in ensuring that every child has the opportunity to succeed academically. Together, we can address educational disparities and foster a generation of informed, empowered individuals. Your donation will help not only with immediate educational needs but also in laying the foundation for sustained academic excellence and personal growth, paving the way for a brighter future for all students.",
         "price": 350
     },
@@ -26,9 +26,9 @@
         "picture": "https://i.ibb.co/Lpfn17d/Clothing.png",
         "title": "Warm Clothing Drive",
         "category": "Clothing",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#72b838",
+        "category_bg": "#d7bde2",
+        "card_bg": "#f5eef8",
+        "background": "#8e44ad",
         "description": "Join our warm clothing drive to provide essential clothing to those in need. Your donation will help distribute warm jackets, blankets, and other clothing items to individuals and families facing extreme weather conditions. Every contribution ensures that no one suffers from the cold, bringing much-needed comfort and relief. This initiative is particularly crucial during the winter months when temperatures drop and the risk of cold-related illnesses increases. Your support will aid in collecting and distributing clothing, focusing on providing adequate protection and comfort to vulnerable populations. By participating in this drive, you contribute to improving living conditions and ensuring that everyone has the basics required to stay warm and safe. Together, we can make a meaningful impact on many lives during these challenging times, ensuring that everyone has the necessary clothing to endure harsh weather.",
         "price": 350
     },
@@ -37,9 +37,9 @@
         "picture": "https://i.ibb.co/nj1pg3Z/Food.png",
         "title": "Food for Families",
         "category": "Food",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#ffe100",
+        "category_bg": "#aed6f1",
+        "card_bg": "#ebf5fb",
+        "background": "#3498db",
         "description": "Your donation provides nutritious food to families struggling to make ends meet. By supporting this campaign, you ensure that essential food items reach those who are experiencing hunger and food insecurity. Each contribution helps stock food pantries, distribute meals, and support community kitchens. Our goal is to alleviate food shortages and improve access to nourishing meals for those in need. We focus on providing balanced, wholesome foods that meet dietary needs and promote health. Your support plays a crucial role in addressing immediate hunger issues and fostering long-term food security. By joining us, you contribute to a larger effort to combat hunger and build stronger, healthier communities. Together, we can ensure that no family goes without the necessary sustenance required for a healthy and productive life.",
         "price": 350
     },
@@ -48,9 +48,9 @@
         "picture": "https://i.ibb.co/nj1pg3Z/Food.png",
         "title": "Community Meals",
         "category": "Food",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#ffe100",
+        "category_bg": "#aed6f1",
+        "card_bg": "#ebf5fb",
+        "background": "#3498db",
         "description": "Support our initiative to provide community meals for those in need. This campaign focuses on distributing nutritious and wholesome meals to individuals and families who struggle with food insecurity. Your donation helps cover the cost of ingredients, cooking supplies, and transportation. Every meal served is a step towards alleviating hunger and fostering a sense of community. We aim to reach those who are most vulnerable, ensuring that they receive the nourishment they need to thrive. This effort also includes organizing community events where meals are shared, creating opportunities for social connection and support. Your contribution helps build a stronger, more compassionate community by addressing immediate food needs and supporting overall well-being.",
         "price": 350
     },
@@ -59,9 +59,9 @@
         "picture": "https://i.ibb.co/Lpfn17d/Clothing.png",
         "title": "Summer Wardrobe",
         "category": "Clothing",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#72b838",
+        "category_bg": "#d7bde2",
+        "card_bg": "#f5eef8",
+        "background": "#8e44ad",
         "description": "Help provide summer clothing essentials to individuals in need. Your donation will support the distribution of lightweight clothing items such as t-shirts, shorts, and sandals to those who cannot afford them. Every contribution makes a difference, ensuring that everyone can stay comfortable and cool during the hot summer months. This initiative focuses on collecting and distributing summer apparel to those in need, addressing seasonal clothing shortages and improving living conditions. Your support helps ensure that everyone has access to appropriate clothing, promoting health and well-being during the warmer months. By participating, you contribute to enhancing the quality of life and providing essential clothing to those who need it most.",
         "price": 350
     },
@@ -70,9 +70,9 @@
         "picture": "https://i.ibb.co/tYHmXC5/Education.png",
         "title": "Scholarship Fund",
         "category": "Education",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#ff444a",
+        "category_bg": "#a9dfbf",
+        "card_bg": "#eafaf1",
+        "background": "#27ae60",
         "description": "Contribute to our scholarship fund to help deserving students achieve their academic goals. This initiative provides financial support for tuition, books, and other educational expenses. By donating, you enable talented individuals to pursue higher education and realize their potential without the burden of financial constraints. Scholarships are awarded based on merit and need, ensuring that those who show promise are given the opportunity to excel. Your support helps reduce educational barriers and creates pathways for academic and professional success. Investing in education is investing in the future, and your contribution plays a crucial role in shaping the next generation of leaders and innovators. Together, we can support academic excellence and promote equitable access to educational opportunities.",
         "price": 350
     },
@@ -81,9 +81,9 @@
         "picture": "https://i.ibb.co/C5PwB8v/Health.png",
         "title": "Medical Supplies",
         "category": "Health",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#0052FF",
+        "category_bg": "#e6b0aa",
+        "card_bg": "#f9ebea",
+        "background": "#c0392b",
         "description": "Donate to provide essential medical supplies to clinics and hospitals in underserved areas. Your contribution will help procure necessary items such as first-aid kits, medications, and diagnostic tools. Ensuring that healthcare facilities are well-equipped is crucial for delivering quality medical care. Every donation aids in improving health outcomes and making healthcare more accessible to those in need. Our focus is on supplying resources that address both urgent and routine medical needs, enabling healthcare providers to deliver effective treatments and care. Supporting this initiative helps bridge the gap in medical supply shortages and contributes to better health management. Join us in enhancing healthcare capabilities and making a lasting impact on community health.",
         "price": 350
     },
@@ -92,10 +92,10 @@
         "picture": "https://i.ibb.co/tYHmXC5/Education.png",
         "title": "Books for Schools",
         "category": "Education",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#ff444a",
-        "description": "Support the provision of books and learning materials to schools in need. Your donation will help purchase textbooks, reference materials, and educational resources for students who lack access to these essential tools. By contributing, you empower educators and learners alike, fostering a more equitable educational environment. Providing books is a vital step towards improving literacy and learning outcomes, ensuring that students have the resources necessary for academic success. Our initiative focuses on equipping schools with quality materials that enhance the learning experience and support curriculum development. Your support is instrumental in bridging the educational resource gap and promoting a love of reading and learning among students.",
+        "category_bg": "#a9dfbf",
+        "card_bg": "#eafaf1",
+        "background": "#27ae60",
+        "description": "Support the provision of books and learning materials to schools in need. Your donation will help purchase textbooks, reference materials, and educational resources for students who lack access to these essential tools. By contributing, you empower educators and learners alike, fostering a more equitable educational environment. Providing books is a vital step towards improving literacy and learning outcomes, ensuring that students have the necessary resources to succeed academically. This initiative focuses on equipping schools with quality materials that enhance the learning experience and support curriculum development. Your support is instrumental in bridging the educational resource gap and promoting a love of reading and learning among students.",
         "price": 350
     },
     {
@@ -103,9 +103,9 @@
         "picture": "https://i.ibb.co/nj1pg3Z/Food.png",
         "title": "Food Packages",
         "category": "Food",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#ffe100",
+        "category_bg": "#aed6f1",
+        "card_bg": "#ebf5fb",
+        "background": "#3498db",
         "description": "Contribute to our food package distribution initiative to provide essential food items to families in need. Your donation will help assemble and distribute packages containing staple foods such as rice, beans, and canned goods. This initiative addresses food insecurity by ensuring that families have access to nutritious meals. Each food package is designed to meet the dietary needs of families, providing them with sustenance and supporting their overall health. Your support helps alleviate hunger and brings relief to those facing economic hardships. By participating, you make a meaningful impact on the lives of individuals and families, fostering a more equitable and supportive community.",
         "price": 350
     },
@@ -114,9 +114,9 @@
         "picture": "https://i.ibb.co/Lpfn17d/Clothing.png",
         "title": "Winter Essentials",
         "category": "Clothing",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#72b838",
+        "category_bg": "#d7bde2",
+        "card_bg": "#f5eef8",
+        "background": "#8e44ad",
         "description": "Support our winter essentials campaign by providing necessary clothing items for the cold months. Your donation will help supply warm coats, gloves, hats, and other winter apparel to those in need. This initiative is crucial for ensuring that individuals and families can stay warm and healthy during harsh winter conditions. Every contribution aids in distributing these essential items, focusing on vulnerable populations who may struggle to afford appropriate winter clothing. By participating, you help protect against the cold and improve overall comfort and well-being during winter. Join us in making a difference and ensuring that everyone has access to the clothing they need to stay warm and safe throughout the season.",
         "price": 350
     },
@@ -125,10 +125,20 @@
         "picture": "https://i.ibb.co/C5PwB8v/Health.png",
         "title": "Health Screening",
         "category": "Health",
-        "category_bg": "bg-opacity-20",
-        "card_bg": "bg-opacity-15",
-        "background": "#0052FF",
+        "category_bg": "#e6b0aa",
+        "card_bg": "#f9ebea",
+        "background": "#c0392b",
         "description": "Support our health screening programs aimed at detecting and preventing diseases in underserved communities. Your donation will help fund essential diagnostic tools, mobile clinics, and health workshops. Early detection of health issues can significantly improve treatment outcomes and save lives. We focus on providing comprehensive screenings for conditions such as diabetes, hypertension, and cancer, reaching those who may otherwise have limited access to healthcare services. By contributing, you help ensure that more people receive timely and necessary medical attention, improving their overall health and well-being. Join us in our mission to enhance health equity and make a lasting difference in community health.",
         "price": 350
     }
 ]
+
+
+
+
+
+
+
+
+
+
