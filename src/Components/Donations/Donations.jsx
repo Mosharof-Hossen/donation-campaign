@@ -5,7 +5,6 @@ import DonationCart from "../DonationCart/DonationCart";
 
 
 const Donations = () => {
-    const [see, setSee] = useState(4)
     const [donationList, setDonationList] = useState([]);
     const [displayDonationList, setDisplayDonationList] = useState([])
     const data = useLoaderData();
@@ -23,7 +22,6 @@ const Donations = () => {
 
     const handleSeeAll = () => {
         setDisplayDonationList(donationList);
-        console.log(displayDonationList);
     }
 
 
